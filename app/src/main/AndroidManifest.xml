@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/sdk"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DemoSDK"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"/>
+        <activity android:name=".commomsdk.CommonSDKActivity" />
+        <activity android:name=".commomsdk.speaker.SpeakerActivity" />
+        <activity android:name=".commomsdk.printer.PrintActivity" />
+        <activity android:name=".commomsdk.printer.SetTextFontActivity" />
+
+        <activity
+            android:name=".EMV.EMVActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".commomsdk.ic.IccActivityNew" />
+        <activity android:name=".commomsdk.ic.SmarCardActivity" />
+        <activity android:name=".commomsdk.ic.SLE4442Activity" />
+        <activity android:name=".commomsdk.ic.SLE4428Activity" />
+        <activity android:name=".commomsdk.psam.PsamCardActivity" />
+        <activity android:name=".commomsdk.magneticstripecard.MegneticActivity" />
+        <activity android:name=".commomsdk.powercontrol.PowerControlActivity" />
+        <activity android:name=".commomsdk.nfc.NFCActivity" />
+        <activity android:name=".commomsdk.nfc.NfcActivity_tps900" />
+        <activity android:name=".commomsdk.nfc.MifareDesfireActivity" />
+        <activity android:name=".commomsdk.nfc.FelicaActivity" />
+        <activity android:name=".osapi.OSAPIActivity" />
+        <activity android:name=".commomsdk.subscreen.SubScreenActivity" />
+        <activity android:name=".commomsdk.scanner.DecodeReaderActivity" />
+        <activity android:name=".commomsdk.scanner.SoftDecodeReaderActivity" />
+        <activity android:name=".commomsdk.scanner.QrActivity" />
+
+
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+</manifest>

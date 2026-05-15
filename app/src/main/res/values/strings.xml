@@ -1,0 +1,261 @@
+<resources>
+    <string name="app_name">DemoTransaction</string>
+
+    <string name="emv_service">EMV Sample</string>
+    <string name="payment_service">Contactless Payment Transactions</string>
+    <string name="pinpad_service">Pinpad Service</string>
+    <string name="printer_service">Printer Sample</string>
+    <string name="location_service">Location Service</string>
+    <string name="serialport_service">SerialPort Communication Service</string>
+    <string name="buzzer_service">Buzzer Sample</string>
+    <string name="Speaker_service">Speaker Sample</string>
+    <string name="subscreen_service">SubScreen Sample</string>
+    <string name="osapi_service">OSAPI Sample</string>
+    <string name="commonsdk_service">COMMON SDK Sample</string>
+
+    <string name="ic_service">IC CARD Sample</string>
+    <string name="psam_service">PSAM Sample</string>
+    <string name="nfc_service">NFC Sample</string>
+    <string name="magnetic_service">Magnetic Card Sample</string>
+    <string name="power_service">Power Control Sample</string>
+
+    <string name="colored_light">Colored Light</string>
+    <string name="white_light">White light</string>
+    <string name="card_type">Card Type: </string>
+    <string name="type_b">Type B</string>
+    <string name="type_a">Type A</string>
+    <string name="type_c">Type C</string>
+    <string name="atqa_data">ATQA: </string>
+    <string name="atqb_data">ATQB: </string>
+    <string name="pupi_data">PUPI: </string>
+    <string name="sak_data">SAK: </string>
+    <string name="uid_data">UID: </string>
+
+    <string name="nfc_result">Result:</string>
+
+    <string name="printContent">欢迎光临（中文简体）\n歡迎光臨（中文繁体）\nWelcome（英语）\nBienvenue（法语）\nBienvenido（西班牙语）\nBEM - vindo Ao（葡萄牙语）\nДобро пожаловать（俄语）\n（阿拉伯语）ترحيب\n（波斯语）خوش آمدید\nWillkommen in der（德语）\nvälkommen till（瑞典语）\nBenvenuti a（意大利语）\nWelkom bij de（荷兰语）\ntervetuloa（芬兰语）\nΚαλώς ήρθατε στο（希腊语）\nようこそ(日语)\n환영합니다.(韩语)\nကြိုဆိုပါတယ်(缅甸语)\nต้อนรับ(泰语)\nə ü ö ğ ç ş ı(拉丁语)</string>
+    <string name="printContent0">欢迎光临（中文简体）\n歡迎光臨（中文繁体）\nWelcome（英语）\nBienvenue（法语）\nBienvenido（西班牙语）\nBEM - vindo Ao（葡萄牙语）\nДобро пожаловать（俄语）\nWillkommen in der（德语）\nvälkommen till（瑞典语）\nBenvenuti a（意大利语）\nWelkom bij de（荷兰语）\ntervetuloa（芬兰语）\nようこそ(日语)\n</string>
+    <string name="printContent00">Welcome \nBienvenue \nBienvenido \nBEM - vindo Ao \nДобро пожаловать \nWillkommen in der \nvälkommen till \nBenvenuti a \nWelkom bij de \ntervetuloa \n</string>
+    <string name="printContent000">\n-----------------------------\nPrint Test:\nDevice Base Information\nPrinter Version:\nV05.2.0.3\nPrinter Gray:3\nSoft Version:\nDemo.G50.0.Build140313\nBattery Level:100%\nCSQ Value:24\nIMEI:86378902177527\n-----------------------------\n</string>
+    <string name="printContent1">This is a print test!\n</string>
+    <string name="printContent2">Welcome\n</string>
+    <string name="printContent_ja">ようこそ\n</string>
+    <string name="printContent_ko">환영합니다.\n</string>
+    <string name="printContent_ru">Добро пожаловать\n</string>
+    <string name="printContent_fr">C\'est une démonstration.\n</string>
+
+    <string name="error_configuration" translatable="false">Please configure your serial port first.</string>
+    <string name="error_security" translatable="false">You do not have read/write permission to the serial
+		port.</string>
+    <string name="error_unknown" translatable="false">The serial port can not be opened for an unknown
+		reason.</string>
+    <string name="send_setting_send_text">Send Text</string>
+    <string name="send_setting_send_hex">Send Hex</string>
+    <string name="title_custom_buardate">*custom baudrate:%s</string>
+    <string name="title_serial_port">Port:</string>
+    <string name="title_baudrate">Baudrate:</string>
+    <string name="title_data_bits">Data Bits:</string>
+    <string name="title_parity">Parity:</string>
+    <string name="title_stop_bits">Stop Bits:</string>
+    <string name="title_flow_type">Flow Type:</string>
+    <string name="title_open">Open</string>
+    <string name="title_send">Send</string>
+    <string name="title_clear">Clear</string>
+    <string name="tips_serial_port_not_open">Serial Port not open</string>
+    <string name="tips_please_enter_a_data">Please enter a data</string>
+    <string name="tips_formatting_hex_error">The formatting is bad,not hexadecimal</string>
+    <string name="tips_please_enter_custom_baudrate">Enter custom baudrate</string>
+    <string name="tips_cannot_be_opened">Cannot be opened.msg：%s</string>
+
+    <!-- IC/PSAM -->
+    <string name="psam_read_rate">Reading Rate: 0x</string>
+    <string name="pcsc_test">IC Card Test</string>
+    <string name="psam_test">PSAM Test</string>
+    <string name="open_reader">Open Reader</string>
+    <string name="close_reader">Close Reader</string>
+    <string name="verify">Verify</string>
+    <string name="modify">Modify</string>
+    <string name="sle4442read_addr">addr(0~255):</string>
+    <string name="sle4442read_numm">num(1~256):</string>
+    <string name="sle4442write_addr">addr(0~255):</string>
+    <string name="sle4428read_addr">addr(0~1023):</string>
+    <string name="sle4428read_num">num(0~1024):</string>
+    <string name="sle4428write_addr">addr(0~1023):</string>
+    <string name="at88sc153read_addr">read address(0~3FH)</string>
+    <string name="at88sc153read_numm">read count(0~70H):</string>
+    <string name="at88sc153write_addr">write address(0~3FH):</string>
+    <string name="at88sc153BtWrite">write</string>
+    <string name="at88sc153BtRead">read</string>
+    <string name="content">content:</string>
+    <string name="PSC">PSC</string>
+    <string name="reader">Reader:</string>
+    <string name="get_ATR">get ATR</string>
+    <string name="get_FD">get FD</string>
+    <string name="get_PROTOCOL">get protocol</string>
+    <string name="apdu_to_send">APDU to send</string>
+    <string name="send_apdu">Send APDU</string>
+    <string name="get_ATR_fail">get ATR fail</string>
+    <string name="get_ATR_success">get ATR success：</string>
+    <string name="get_data_success">get data success</string>
+    <string name="get_protocol_success">get protocol success</string>
+    <string name="power_on">Power on</string>
+    <string name="power_off">Power off</string>
+    <string name="send_APDU_fail">send APDU fail</string>
+    <string name="send_APDU_success">send APDU success,return：</string>
+    <string name="send_comm_success">send command success</string>
+    <string name="ic_waring">Tip：\nATR:Reset response instructions\nprotocol：Communication protocol\n"A0A40000023F00":Open the smart kagan directory commands\nAPDU:Smart card communication instruction</string>
+    <!-- RFID -->
+    <string name="rfid_test">RFID Test</string>
+    <string name="operation_fail">Operation failed</string>
+    <string name="init_card">Initialize</string>
+    <string name="query">Query</string>
+    <string name="consume">Consume</string>
+    <string name="recharge">Charge</string>
+    <string name="opening">Connecting card reader</string>
+    <string name="operating">Processing</string>
+    <string name="operation_succss">Operate Success</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="input_init_amount">Please input amount</string>
+    <string name="input_consume_amount">Please input amount</string>
+    <string name="input_recharge_amount">Please input amount</string>
+    <string name="balance">Blance</string>
+    <string name="no_enough_balance">Insufficient Balance</string>
+    <string name="input_amount">Input amount</string>
+    <string name="cpu_card_test">Cpu Card Test</string>
+    <string name="check_version">Please wait while checking driver version</string>
+    <string name="get_rfid_sn">Get Card Information</string>
+    <string name="m1_card_test">M1 Card Test</string>
+    <string name="ul_card_test">Ultralight Card Test</string>
+    <string name="card_sn">Card number is:</string>
+    <string name="ul_read_card">Read Card</string>
+    <string name="ul_write_card">Write Card</string>
+    <string name="read_succss">Read Success</string>
+    <string name="write_succss">Write Success</string>
+    <string name="cpucard_send_apdu_command">Send APDU Command</string>
+
+    <!-- Magnetic Card -->
+    <string name="magnetic_card_test">Magnetic Card</string>
+    <string name="track1">Track1</string>
+    <string name="track2">Track2</string>
+    <string name="track3">Track3</string>
+    <string name="read_card">Swipe Card</string>
+    <string name="quit">quit</string>
+    <string name="error_open_magnetic_card">Could not open magnetic card device</string>
+    <string name="error">Error</string>
+    <string name="input_content">input content</string>
+    <string name="dialog_comfirm">ConFirm</string>
+    <string name="operation_result">Result</string>
+
+
+
+
+
+    <!-- NFC -->
+    <string name="nfc">NFC Test</string>
+    <string name="nfc_cpu_m1_test">CPU/Mifare Classic</string>
+    <string name="nfc_felica_test">Felica</string>
+    <string name="nfc_mifare_desfire_test">Mifare Desfire</string>
+    <string name="nfc_mifare_ultraLight_test">Mifare UltraLight</string>
+    <string name="nfc_mifare_plus_se_test">Mifare Plus SE</string>
+    <string name="nfc_ntag_21x_test">NTAG 20X</string>
+    <string name="nfc_tv_scanning">Scanning...</string>
+    <string name="nfc_open_text">Open NFC</string>
+    <string name="nfc_close_text">Close NFC</string>
+    <string name="nfc_check_text">Check NFC</string>
+    <string name="nfc_card_data">NFC card data</string>
+    <string name="get_ats">get ats</string>
+    <string name="get_uid">get uid</string>
+    <string name="authenticate">authenticate</string>
+    <string name="nfc_block_data">block data(16 bytes): </string>
+    <string name="nfc_block_hit">Please input 16 bytes data</string>
+    <string name="write_block">write block</string>
+    <string name="read_block">read block</string>
+    <string name="write_value">write initial value</string>
+    <string name="read_value">read value</string>
+    <string name="halt_text">halt block</string>
+    <string name="remove_text">remove block</string>
+    <string name="nfc_value_hit">Please input 4 bytes data</string>
+    <string name="inc_text">increment</string>
+    <string name="dec_text">decrement</string>
+    <string name="nfc_xzgn">Select function</string>
+    <string name="nfc_xznfcsbfs">Please choose a mode for NFC</string>
+    <string name="nfc_ys">Android NFC</string>
+    <string name="nfc_telpo">"Telpo NFC"</string>
+    <string name="nfc_telpo_pn512">Telpo NFC(PN512)"</string>
+    <string name="nfc_area_text">Please swipe your card in this area</string>
+    <string name="open_success">Open successfully:</string>
+
+    <string name="nfc_reset">Reset</string>
+    <string name="nfc_open_serial">Open the Serial Port</string>
+    <string name="nfc_close_serial">Close the Serial Port</string>
+    <string name="nfc_check_version">Firmware Version</string>
+    <string name="nfc_searching">Card Reading</string>
+    <string name="nfc_authentication">Authentication</string>
+    <string name="nfc_password_TypeA">Passwd Type:A</string>
+    <string name="nfc_password_TypeB">Passwd Type:B</string>
+    <string name="nfc_read_block">Read Block</string>
+    <string name="nfc_write_block">Write Block</string>
+    <string name="nfc_initialize_wallet">E-Wallet Init</string>
+    <string name="nfc_read_wallet">E-Wallet Read</string>
+    <string name="nfc_write_wallet">E-Wallet Write</string>
+    <string name="nfc_plus">Add</string>
+    <string name="nfc_reduce">Reduce</string>
+    <string name="nfc_block_to_cache">Block to Cache</string>
+    <string name="nfc_cache_to_block">Cache to Block</string>
+    <string name="nfc_send_apdu">Send APDU</string>
+    <string name="nfc_close_card">Close the Card Function</string>
+    <string name="nfc_write_block_hint">Data to be written(16-bits)</string>
+    <string name="nfc_write_wallet_hint">money(4-bits)</string>
+    <string name="nfc_password_TypeA_hint">Password</string>
+
+    <string name="nfc_card_type">Card Type</string>
+    <string name="nfc_card_no">Card Number</string>
+    <string name="nfc_authentication_succeed">Authentication successful</string>
+    <string name="nfc_authentication_fail">Authentication failed</string>
+    <string name="nfc_sector_data">Sector Data</string>
+    <string name="nfc_read_fail">Read failed</string>
+    <string name="nfc_write_succeed">Write successfully</string>
+    <string name="nfc_write_fail">Write failed</string>
+    <string name="nfc_init_wallet_succeed">E-wallet init successful</string>
+    <string name="nfc_init_wallet_fail">E-wallet init failed</string>
+    <string name="nfc_wallet_amount">E-wallet Amount</string>
+    <string name="nfc_read_wallet_fail">E-wallet amount reading failed</string>
+    <string name="nfc_write_wallet_succeed">E-wallet amount writing successful</string>
+    <string name="nfc_write_wallet_fail">E-wallet amount writing failed</string>
+    <string name="nfc_block_to_cache_succeed">Block to Cache Successful</string>
+    <string name="nfc_block_to_cache_fail">Block to Cache Failed</string>
+    <string name="nfc_cache_to_block_succeed">Cache to Block Successful</string>
+    <string name="nfc_cache_to_block_fail">Cache to Block Failed</string>
+    <string name="nfc_send_apdu_fail">send APDU failed</string>
+    <string name="nfc_close_succeed">Close successfully</string>
+    <string name="nfc_close_fail">Close failed</string>
+    <string name="nfc_loop_find">loop read</string>
+    <string name="nfc_loop_start_find">Start Read</string>
+    <string name="nfc_loop_stop_find">Stop Read</string>
+
+
+    <string name="qr">QR Code</string>
+    <string name="identify_fail">API module is not installed</string>
+
+    <!-- scanner_test -->
+    <string name="scanner_test">Scanner Test</string>
+    <string name="scanner_dialog_title">Select decoding type</string>
+    <string name="scanner_dialog_msg">Please select read head decoding type</string>
+    <string name="scanner_dialog_soft_decoding">Soft decoding</string>
+    <string name="scanner_dialog_hard_decoding">Hard decoding</string>
+    <string name="scanner_success_tips">Scan Success</string>
+    <string name="not_support_ocr">Not support OCR</string>
+
+    <!-- hardreader_test -->
+    <string name="scanner_hardreader_test_title">Hard read Test</string>
+    <string name="scanner_hardreader_serial">Serial</string>
+    <string name="scanner_hardreader_usb">USB</string>
+    <string name="scanner_hardreader_open">OPEN</string>
+    <string name="scanner_hardreader_close">CLOSE</string>
+    <string name="scanner_hardreader_recv">RECV</string>
+    <string name="scanner_hardreader_charset">Charset</string>
+    <string name="scanner_hardreader_baud">Baud</string>
+
+
+</resources>
